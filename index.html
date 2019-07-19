@@ -26,6 +26,7 @@
     <header>
         <!--Twitch like Banner-->
         <div class="banner">
+            
             <div class="flex-container">
                 <div class="flex-item" >
                     <img id="bannerlogo" src="image/dome-logo-600x600-transparent-ohne-schrift.png"/>
@@ -39,6 +40,10 @@
                 </div>
             </div>
             
+            <div class="bubbles" id="co">
+                <canvas id="c"></canvas>
+              </div>
+              <script src="js/header.js"></script>
             
         </div>
         <script src="js/countdown.js"></script>
@@ -98,7 +103,7 @@
     <div class="spacer2" id="about">
             <div class="grid">
                 <div class="grid-item">
-                    <img align="center" id="about-pic" src="image/LogoBEARBEITET.png"/>
+                    <img id="about-pic" src="image/LogoBEARBEITET.png"/>
                 </div>
                 <div class="grid-item" id="about-cont">
                         <h1>About me!</h1>
@@ -181,8 +186,6 @@
         </div>
     </div>
 
-    
-
     <!--Sponsoren-->
     <div class="spacer1" id="sponsors">
         <h1 id="underline">My Sponsors</h1>
@@ -211,41 +214,25 @@
                             <small>Zitat von <cite titel="Source Title">Bertha von Suttner</cite><small></small>
                 </blockquote>
         </div>
+        
     </div>
 
     <div class="line"></div>
 
     <!-- Footer -->
-<footer class="foot">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-4">
-              <h3>Equipment!</h3>
-              <p>my 8 inch hammer</p>
-              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-          </div>
-          <div class="col-sm-4">
-            <h3>Watch me live!</h3>
-            <button class="buttn"><i class="fa fa-twitch"></i> Twitch</button>
-          </div>
-          <div class="col-sm-4">
-            <h3>Contact me!</h3>        
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-          </div>
+    <footer>
+        <div class="container">
+                <a href='https://www.twitch.tv/dome_m_8'><i class="fa fa-twitch fa-3x fa-fw"></i></a>
+                <a href='#'><i class="fa fa-facebook fa-3x fa-fw"></i></a>
+                <a href='#'><i class="fa fa-twitter fa-3x fa-fw"></i></a>
+                <a href='#'><i class="fa fa-youtube-play fa-3x fa-fw"></i></a>
+                <a href='#'><i class="fa fa-rss fa-3x fa-fw"></i></a>
+                <a href='#'><i class="fa fa-vine fa-3x fa-fw"></i></a>
+                <a href='#'><i class="fa fa-flickr fa-3x fa-fw"></i></a>
+                <a href='#'><i class="fa fa-linkedin fa-3x fa-fw"></i></a>
+              </span>
         </div>
-      </div>
-            <div class="col" id="icons">
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-google"></a>
-                    <a href="#" class="fa fa-linkedin"></a>
-                    <a href="#" class="fa fa-youtube"></a>
-                    <a href="#" class="fa fa-instagram"></a>
-                    <a href="#" class="fa fa-snapchat-ghost"></a>
-                    <a href="#" class="fa fa-reddit"></a>
-            </div>
-</footer>
+    </footer>
 
 </body>
 </html>
